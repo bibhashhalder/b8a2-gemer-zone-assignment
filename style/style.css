@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ===============header section================= */
+.header{
+    width: 100%;
+    padding: 38px 240px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.ul_list{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.ul_list>li{
+    list-style: none;
+}
+.ul_list>li>a{
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    color: red;
+}
